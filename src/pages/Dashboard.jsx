@@ -2,7 +2,7 @@ import React from 'react'
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div style={{color: "red", fontSize: 250}}>Dashboard</div>
   )
 }
 
