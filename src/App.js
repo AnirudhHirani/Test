@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Routes>
+        <Route path='/dashboard' element={<Dashboard />} />
+      </Routes>
     </div>
   );
 }
